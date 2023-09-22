@@ -1,0 +1,46 @@
+.banner {
+    background-image: url(../img/Slide-3.jpg);
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .bannerContenido {
+        h2 {
+
+            font-size: 3rem;
+            font-weight: bold;
+            color: #fafafa;
+            margin-bottom: 300px;
+            margin-left: 300px;
+            height: 10px;
+            font-weight: 100;
+            margin-top: 200px;
+
+        }
+
+        p {
+            color: #fafafa;
+            font-size: 3rem;
+            text-transform: uppercase;
+            font-weight: 100;
+            margin-bottom: 100px;
+            text-align: center;
+            margin-top: 200px;
+
+        }
+
+        .boton {
+            margin-top: 10px;
+            margin-left: 420px;
+            margin-bottom: 300px;
+            background-color: pink;
+            border-color: pink;
+            color: #fafafa;
+        }
+
+
+    }
+
+}

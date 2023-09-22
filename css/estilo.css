@@ -1,240 +1,137 @@
-li a {
-    text-decoration: none;
-    margin: 10px;
-    text-transform: uppercase;
-    font-weight: 500px;
-    font-size: 25px;
-    color: bisque;
-    padding: 10px;
-}
-
-
-.Papas {
-    color: white;
-
-}
-
-.Foto {
-
-    width: 120px;
-    align-items: baseline;
-
-}
-
-header {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: pink;
-    border-top: solid 20px lightblue;
-    font-size: 25px;
-}
-
-.Comidas {
-    color: bisque;
-}
-
-li {
-    list-style: none;
-    display: inline-flex;
-
-}
-
-
-.Comidas {
-    color: bisque
-}
-
-
-
-.Ingredientes {
-    color: white;
-    border: 1px black solid;
-
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: lightblue;
-    font-size: 20px;
+  background-color: lightblue;
+  font-size: 20px;
 }
 
-
-.Formulario {
-    border: 1px black solid;
-    display: flex;
-    flex-direction: column;
-    width: 250px;
-    margin-top: 100px;
-    margin-left: 600px;
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: pink;
+  border-top: solid 20px lightblue;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: pink;
+  top: 0;
+  color: #fafafa;
+}
+header li:hover {
+  background-color: lightblue;
+  border-radius: 15px;
 }
 
-
-
-
-
-.Lista {
-    border: 1px black solid;
-    display: flex;
-    flex-direction: column;
-    padding: 100px;
-
+li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: 500px;
+  font-size: 25px;
+  color: lightblue;
+  padding: 10px;
 }
-
-
-
-.Imagen {
-    width: 50px;
-    align-items: baseline;
-    margin-left: 700px;
-    cursor: pointer;
-}
-
-
-
-.Ubicacion {
-    color: white;
-    margin-left: 600px;
-}
-
-
-footer {
-    margin-left: 700px;
-}
-
-.RedesSociales {
-    margin-left: 700px;
-
-}
-
-.Mapa {
-    margin-left: 450px;
-}
-
-
-
-.Mueble {
-    margin-top: 900px;
-
-
-}
-
-
-
-
-
-.CajoneraCuadrada {
-    width: 290px;
-    margin-left: 15px;
-}
-
-
-
-
-.CajoneraPiramide {
-    width: 290px;
-}
-
-
-
-
-
-.PortaPinceles {
-    width: 290px;
-}
-
-
-
-
-.CajoneraNormal {
-    width: 290px;
-}
-
-
-
-.Cuadro {
-    width: 290px;
-}
-
-
-
-
-
-
-
-
-
-
-.Carro {
-    background-color: pink;
-}
-
-
-
-.tituloTienda {
-    background-color: lightblue;
-    color: violet;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 16px;
-}
-
-
-
-
-.carrusel {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-
-
-.cuadrado {
-    width: 100%;
-    height: 250px;
-    overflow:scroll
-}
-
-
 
 .miLogo {
-    width: 150px;
-    display: block;
-
+  width: 150px;
+  display: block;
 }
 
-.forFondo {
-    background-color: pink;
-
-
+footer {
+  margin-left: 700px;
 }
 
-header {
+.Main {
+  border: 1px black;
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  color: #fafafa;
+  border: 1px black;
+}
 
+li {
+  list-style: none;
+}
+
+.CajoneraPiramide {
+  width: 290px;
+}
+
+.CajoneraCuadrada {
+  width: 290px;
+  margin-left: 22px;
+}
+
+.Cajonera {
+  width: 290px;
+}
+
+.PortaPinceles {
+  width: 290px;
+}
+
+.Cuadro {
+  width: 290px;
+}
+
+.tituloTienda {
+  background-color: lightblue;
+  color: violet;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 16px;
+}
+
+.banner {
+  background-image: url(../img/Slide-3.jpg);
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.banner .bannerContenido h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fafafa;
+  margin-bottom: 300px;
+  margin-left: 300px;
+  height: 10px;
+  font-weight: 100;
+  margin-top: 200px;
+}
+.banner .bannerContenido p {
+  color: #fafafa;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 100;
+  margin-bottom: 100px;
+  text-align: center;
+  margin-top: 200px;
+}
+.banner .bannerContenido .boton {
+  margin-top: 10px;
+  margin-left: 420px;
+  margin-bottom: 300px;
+  background-color: pink;
+  border-color: pink;
+  color: #fafafa;
+}
+
+@media (max-width: 872px) {
+  header {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    background-color: pink;
-    top: 0;
-
-
-
+  }
 }
 
-header li:hover {
-    background-color: lightblue;
-    border-radius: 15px;
-}
-
-header {
-    color: bisque;
-}
-
-
-
-
-
-
-
+/*# sourceMappingURL=estilo.css.map */
