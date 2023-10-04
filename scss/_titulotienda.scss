@@ -1,8 +1,31 @@
 .tituloTienda {
-    background-color: lightblue;
-    color: violet;
-    text-align: center;
+    font-family: 'Audiowide';
+    color: white;
+    padding: 1%;
+    margin: 120px 0px 30px 660px;
+    font-size: 50px;
     text-transform: uppercase;
-    font-weight: bold;
-    padding: 16px;
+    text-shadow: 2px 2px 2px rgb(13, 0, 0);
+}
+
+@media (max-width: 1240px) {
+
+    .tituloTienda {
+        font-family: 'Audiowide';
+        color: white;
+        padding: 1%;
+        margin: 120px 100px 30px 100px;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 2px rgb(13, 0, 0);
+        text-align: center;
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+@media (max-width: 240px) {
+    .tituloTienda {
+        margin-left: 70px;
+    }
 }
