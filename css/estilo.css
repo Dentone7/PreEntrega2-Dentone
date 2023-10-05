@@ -195,6 +195,9 @@ p {
     text-align: center;
   }
 }
+h2{
+  text-align: center;
+}
 .botones-contacto button {
   background-color: violet;
   color: white;
@@ -229,6 +232,9 @@ p {
   align-items: center;
   justify-content: center;
 }
+.card{
+  margin: 0 auto;
+}
 .main-tienda .cards {
   display: flex;
   justify-content: space-between;
@@ -257,7 +263,7 @@ p {
   font-family: "Audiowide";
   color: white;
   padding: 1%;
-  margin: 120px 0px 30px 660px;
+ margin-top: 80px;
   font-size: 50px;
   text-transform: uppercase;
   text-shadow: 2px 2px 2px rgb(13, 0, 0);
@@ -358,9 +364,9 @@ p {
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 24px;
-  margin-top: 100px;
-  margin-left: 30px;
-  margin-right: 20px;
+  margin-top: 60px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
   gap: 50px;
 }
 

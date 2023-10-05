@@ -2,10 +2,13 @@
     font-family: 'Audiowide';
     color: white;
     padding: 1%;
-    margin: 120px 0px 30px 660px;
+    align-items: center;
+    margin: 0 auto;
     font-size: 50px;
     text-transform: uppercase;
     text-shadow: 2px 2px 2px rgb(13, 0, 0);
+    justify-content: center;
+    text-align: center;
 }
 
 @media (max-width: 1240px) {
@@ -14,7 +17,7 @@
         font-family: 'Audiowide';
         color: white;
         padding: 1%;
-        margin: 120px 100px 30px 100px;
+       margin: 0 auto;
         text-transform: uppercase;
         text-shadow: 2px 2px 2px rgb(13, 0, 0);
         text-align: center;
