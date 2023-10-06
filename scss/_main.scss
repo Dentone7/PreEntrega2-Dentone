@@ -1,12 +1,12 @@
 .imagenes {
     .productos h3 {
         font-family: 'Audiowide';
-        color: white;
+        color: $color-blanco;
         padding: 1%;
         margin: 120px 0px 30px 0px;
         font-size: 50px;
         text-transform: uppercase;
-        text-shadow: 2px 2px 2px rgb(13, 0, 0);
+        text-shadow: 2px 2px 2px $color-negro;
     }
 
     .card {
@@ -47,11 +47,11 @@
 .imagenes {
     a {
         text-decoration: none;
-        color: black;
+        color: $color-negro;
         font-size: 2rem;
 
         &:hover {
-            color: violet;
+            color: $color-violeta;
         }
     }
 
@@ -73,9 +73,9 @@
     margin-bottom: 10%;
     margin-right: 0 auto;
     margin-left: 0 auto;
-    color: #fafafa;
-    text-shadow: 2px 3px 3px rgb(13, 0, 0);
-    background-color: lightblue;
+    color: $color-blanco;
+    text-shadow: 2px 3px 3px $color-negro;
+    background-color: $color-celeste;
     padding: 4%;
     border-radius: 10px;
     justify-content: center;
@@ -103,9 +103,9 @@
         margin-right: 5%;
         margin-left: 7%;
         margin-bottom: 2%;
-        color: rgb(255, 255, 255);
-        text-shadow: 2px 3px 3px pink;
-        background-color: lightblue;
+        color: $color-blanquito;
+        text-shadow: 2px 3px 3px $color-negro;
+        background-color: $color-celeste;
         padding: 4%;
         border-radius: 10px;
         text-align: center;
@@ -113,8 +113,8 @@
 }
 
 .botones-contacto button {
-    background-color: violet;
-    color: white;
+    background-color: $color-violeta;
+    color: $color-blanco;
     font-weight: bold;
     width: 48%;
     padding: 1.5%;
@@ -124,9 +124,9 @@
     border: none;
 
     &:hover {
-        box-shadow: 0px 0px 5px pink;
-        background-color: lightblue;
-        color: #fafafa;
+        box-shadow: 0px 0px 5px $color-rosa;
+        background-color: $color-naranja;
+        color: $color-blanco;
     }
 }
 
@@ -158,12 +158,12 @@
     }
 
     .tienda-boton {
-        color: #fafafa;
-        background-color: violet;
-        border: violet;
+        color: $color-blanco;
+        background-color: $color-violeta;
+        border: $color-violeta;
 
         &:hover {
-            background-color: lightcoral;
+            background-color: $color-naranja;
 
 
         }

@@ -18,7 +18,7 @@ header {
   align-items: center;
   background-color: rgb(44, 43, 46);
   top: 0;
-  color: white;
+  color: #fafafa;
 }
 header li:hover {
   background-color: #fafafa;
@@ -44,7 +44,7 @@ li a {
   background-color: rgb(44, 43, 46);
   padding-top: 2rem;
   padding-bottom: 1.5rem;
-  border-bottom: solid 1px black;
+  border-bottom: solid 1px rgb(13, 0, 0);
 }
 
 .lista-linea {
@@ -59,7 +59,7 @@ li {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #fafafa;
   letter-spacing: 1px;
   font-size: 1.2rem;
 }
@@ -84,7 +84,7 @@ a {
 .copy {
   background-color: rgb(44, 43, 46);
   text-align: center;
-  color: white;
+  color: #fafafa;
 }
 
 p {
@@ -110,7 +110,7 @@ p {
 }
 .imagenes .productos h3 {
   font-family: "Audiowide";
-  color: white;
+  color: #fafafa;
   padding: 1%;
   margin: 120px 0px 30px 0px;
   font-size: 50px;
@@ -143,7 +143,7 @@ p {
 }
 .imagenes a {
   text-decoration: none;
-  color: black;
+  color: rgb(13, 0, 0);
   font-size: 2rem;
 }
 .imagenes a:hover {
@@ -188,19 +188,16 @@ p {
     margin-left: 7%;
     margin-bottom: 2%;
     color: rgb(255, 255, 255);
-    text-shadow: 2px 3px 3px pink;
+    text-shadow: 2px 3px 3px rgb(13, 0, 0);
     background-color: lightblue;
     padding: 4%;
     border-radius: 10px;
     text-align: center;
   }
 }
-h2{
-  text-align: center;
-}
 .botones-contacto button {
   background-color: violet;
-  color: white;
+  color: #fafafa;
   font-weight: bold;
   width: 48%;
   padding: 1.5%;
@@ -211,7 +208,7 @@ h2{
 }
 .botones-contacto button:hover {
   box-shadow: 0px 0px 5px pink;
-  background-color: lightblue;
+  background-color: lightcoral;
   color: #fafafa;
 }
 
@@ -231,9 +228,6 @@ h2{
   margin: 0 auto;
   align-items: center;
   justify-content: center;
-}
-.card{
-  margin: 0 auto;
 }
 .main-tienda .cards {
   display: flex;
@@ -261,20 +255,23 @@ h2{
 }
 .tituloTienda {
   font-family: "Audiowide";
-  color: white;
+  color: #fafafa;
   padding: 1%;
- margin-top: 80px;
+  align-items: center;
+  margin: 0 auto;
   font-size: 50px;
   text-transform: uppercase;
   text-shadow: 2px 2px 2px rgb(13, 0, 0);
+  justify-content: center;
+  text-align: center;
 }
 
 @media (max-width: 1240px) {
   .tituloTienda {
     font-family: "Audiowide";
-    color: white;
+    color: #fafafa;
     padding: 1%;
-    margin: 120px 100px 30px 100px;
+    margin: 0 auto;
     text-transform: uppercase;
     text-shadow: 2px 2px 2px rgb(13, 0, 0);
     text-align: center;
@@ -364,9 +361,9 @@ h2{
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 24px;
-  margin-top: 60px;
-  margin-left: 0 auto;
-  margin-right: 0 auto;
+  margin-top: 100px;
+  margin-left: 30px;
+  margin-right: 20px;
   gap: 50px;
 }
 

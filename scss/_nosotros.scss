@@ -1,6 +1,6 @@
 .main-nosotros {
-    border: 3px solid lightcoral;
-    color: #fafafa;
+    border: 3px solid $color-naranja;
+    color: $color-blanco;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
@@ -11,11 +11,11 @@
   
   .div-nosotros h1 {
     font-size: 40px;
-    background-color: lightcoral;
+    background-color: $color-naranja;
   }
   
   .nosotros-p {
-    color: #fafafa;
+    color: $color-blanco;
     padding: 10%;
     background-image: url(../img/Fondos\ Nosotros\ 1.jpg);
   }

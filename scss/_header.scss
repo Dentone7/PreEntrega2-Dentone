@@ -11,16 +11,16 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(44, 43, 46);;
+    background-color: $color-negrito;
     top: 0;
 
     li:hover {
-        background-color: #fafafa;
+        background-color: $color-blanco;
         border-radius: 15px;
         
     }
 
-    color: white;
+    color: $color-blanco;
 }
 
 li a {
@@ -28,7 +28,7 @@ li a {
     margin: 10px;
     font-weight: 580px;
     font-size: 25px;
-    color: #fafafa;
+    color: $color-blanco;
     padding: 10px;
     
 }
